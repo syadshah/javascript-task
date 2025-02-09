@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name=prompt("Enter your name");
+        var number=prompt("Enter your number");
+        var email=prompt("Enter your email");
+        var sub1=+prompt("Enter sub1marks");
+        var sub2=+prompt("Enter sub2");
+        var sub3=+prompt("Enter sub3");
+        var sub4=+prompt("Enter sub4");
+        var sub5=+prompt("Enter sub5");
+
+        var total=250;
+        var obtainedMarks=sub1+sub2+sub3+sub4+sub5;
+        
+        var percentage=(obtainedMarks / total)*100
+
+        document.write("Name:"+name+"<br>");
+        document.write("Mobile Number:"+number+"<br>");
+        document.write("Your Email:"+email+"<br>");
+        document.write("Eng:"+sub1+"<br>");
+        document.write("Urdu:"+sub2+"<br>");
+        document.write("Maths:"+sub3+"<br>");
+        document.write("Physics:"+sub4+"<br>");
+        document.write("Isl:"+sub5+"<br>");
+        document.write("Pakstd:"+total+"<br>");
+        document.write("Total Marks:"+obtainedMarks+"<br>");
+        document.write("Percentage:"+percentage+"%"+"<br>");
+        
+    </script>
+</body>
+</html>
